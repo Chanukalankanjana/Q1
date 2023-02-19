@@ -1,0 +1,138 @@
+/*---------------------------------------------
+     color, font and variables setup
+     ---------------------------------------*/
+
+:root {
+  --c-primary: #070707;
+  --c-secondry: #46a7f8;
+  --c-bg: #868686;
+  --font-base: "";
+}
+
+
+.body{
+  font-family: var(--font-base);
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.h1 .h2 .h3 .h5 .h6{
+    font-weight: 600;
+}
+
+a:hover{
+    color: var(--c-secondry);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.button1 {
+    background-color: #5a5ffe;
+    border: none;
+    border-radius: 40px;;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #ffffff;
+    border-radius: 40px;;
+    color: rgb(196, 196, 196);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}  
+
+.b2{
+    border: 2px solid gray;
+    border-radius: 40px;
+    background-color: white;
+    padding: 5px 18px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------
+     Button CSS Setup
+     -----------------------------------------*/
+/*-------------------------------------------------
+     Navbar CSS Setup
+     -----------------------------------------*/
+.navbar{
+    font-family: var(--font-base);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*---------------------------------------------------
+     Hero CSS Setup
+     --------------------------------------------*/
+.herotext {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.himag{
+    margin-top: -100px;
+}
+
+/*---------------------------------------------------
+     Middle Setup
+     --------------------------------------------*/
+
+.brand-title{
+    font-size: 45px;
+    font-weight: 750px;
+}
+
+.card {
+    box-sizing: var(--c-secondry);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+  
+#rcard{
+    border-radius: 25px;
+}
+/*---------------------------------------------------
+     Middle 2 Setup
+     --------------------------------------------*/
+
+.middle{
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.img1{
+    width: 35px;
+}
+
+.img2{
+    width: 90px;
+}
+
+/*-----------------------------------------------------
+     Bottom Setup
+     ----------------------------------------------*/
+
+/* Gray border */
+.new1 {
+    border-top: 1px solid rgb(106, 106, 106);
+    margin-top: -176px;
+}
